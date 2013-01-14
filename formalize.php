@@ -9,7 +9,7 @@ Author URI: http://www.jacopotarantino.com
 License: GPLv2
 */
 
-$f_dir = plugins_url() . '/formalize-plugin/';
+$f_dir = plugins_url() . '/Formalize%20WordPress%20Plugin/';
 
 wp_enqueue_script('formalize', $f_dir . 'jquery.formalize.min.js', array('jquery'));
 wp_enqueue_style('formalize_styles', $f_dir . 'formalize.css');
