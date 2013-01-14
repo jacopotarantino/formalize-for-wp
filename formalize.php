@@ -11,6 +11,8 @@ License: GPLv2
 
 $f_dir = plugins_url() . '/Formalize%20WordPress%20Plugin/';
 
-wp_enqueue_script('formalize', $f_dir . 'jquery.formalize.min.js', array('jquery'));
-wp_enqueue_style('formalize_styles', $f_dir . 'formalize.css');
+if ( !is_admin() ) {
+	wp_enqueue_script('formalize', $f_dir . 'jquery.formalize.min.js', array('jquery'));
+	wp_enqueue_style('formalize_styles', $f_dir . 'formalize.css');
+}
 ?>
