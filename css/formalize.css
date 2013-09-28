@@ -79,7 +79,7 @@ input[type="button"] {
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  background: #dddddd url('images/button.png?1298351022') repeat-x;
+  background: #dddddd url('../images/button.png?1298351022') repeat-x;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
   background-image: -webkit-linear-gradient(#ffffff, #dddddd);
   background-image: -moz-linear-gradient(#ffffff, #dddddd);
@@ -313,13 +313,13 @@ optgroup::-moz-focus-inner {
 .ie6_button,
 * html button,
 * html a.button {
-  background: #dddddd url('images/button.png?1298351022') repeat-x;
+  background: #dddddd url('../images/button.png?1298351022') repeat-x;
   border: 1px solid;
   border-color: #dddddd #bbbbbb #999999;
   cursor: pointer;
   color: #333333;
   font: bold 12px/1.2 Arial, sans-serif;
-  padding: 2px 10px 0px;
+  padding: 2px 10px 0;
   text-decoration: none;
   overflow: visible;
   vertical-align: top;
